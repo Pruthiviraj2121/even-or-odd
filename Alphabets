@@ -1,0 +1,17 @@
+package com.company;
+
+import java.util.Scanner;
+public class Main {
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        String x = sc.nextLine();
+        System.out.println("enter a character:");
+
+            if( (x>='a' && x<='z')||(x>='A' && x<='Z') );
+                System.out.println("ch" + x "is an alphabet");
+            else
+                System.out.println("ch" + x "is not an alphabet");
+
+    }
+}
